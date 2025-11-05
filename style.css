@@ -24,6 +24,17 @@ body {
   align-items: center;
   overflow: hidden;
 }
+body {
+  overflow-y: auto;
+}
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
 
 /* ====== Container ====== */
 .birthday-container {
@@ -94,3 +105,4 @@ body {
   pointer-events: none;
   overflow: hidden;
 }
+
